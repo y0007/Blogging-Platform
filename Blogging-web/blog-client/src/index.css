@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Google fonts for the Wix-like look */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lora:wght@400;500&display=swap");
+
+/* Tailwind v4 theming: define custom font families */
+@theme {
+  --font-display: "Playfair Display", ui-serif, Georgia, "Times New Roman", Times, serif;
+  --font-serif: "Lora", ui-serif, Georgia, "Times New Roman", Times, serif;
+}
